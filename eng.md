@@ -1,4 +1,6 @@
-<section name="a7c7" class=" section-first" score="2.5">The first time I sat
+#Why ContentEditable is Terrible
+
+The first time I sat
 across a table from Jacob
 ([@fat][1]), he asked bluntly, “How do you write a text editor?”
 
@@ -28,7 +30,7 @@ happens when you select this text and hit Enter?” Axiomatic math is the best
 toolkit I know to take fuzzy, ill-defined questions and sharpen them.
 
 So what does WYSIWYG mean? A good WYSIWYG editor should satisfy the following 3
-axioms:</section><section name="b1b1" score="3.75">
+axioms:
 
 1.  The *mapping *between DOM content and Visible content should be *well-
     behaved.
@@ -47,9 +49,7 @@ any proof. We’re assuming they’re OK unless we have evidence otherwise.
 Second, I’ll show that ContentEditable fails all 3 axioms.
 
 Third, we’ll talk about how new browser features and libraries try to address
-these issues, and how we handle them in the Medium editor.</section><section
-name="920f" score="2.5
-">
+these issues, and how we handle them in the Medium editor.
 
 DOM space is the set of all web pages that you can express in HTML. All pages
 can be represented as a tree of elements, with text nodes as the leaves of those
